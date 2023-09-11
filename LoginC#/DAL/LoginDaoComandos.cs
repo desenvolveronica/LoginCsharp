@@ -8,5 +8,15 @@ namespace LoginC_.DAL
 {
     internal class LoginDaoComandos
     {
+        public bool tem;
+        public String mensagem;
+        public bool verificarLogin(String login, String senha)
+        {
+            return tem;
+        }
+        public string cadastrar(String email, String senha, String confSenha)
+        {
+            return mensagem;
+        }
     }
 }

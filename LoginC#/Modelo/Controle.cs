@@ -9,13 +9,13 @@ namespace LoginC_.Modelo
     public class Controle
     {
         public bool tem;
-        public string mensagem = "";
-        public bool acessar(string login, string senha)
+        public String mensagem = "";
+        public bool acessar(String login, String senha)
         {
             return tem;
         }
 
-        public string cadastrar(string email, string senha, string confSenha)
+        public string cadastrar(String email, String senha, String confSenha)
         {
             return mensagem;
         }
