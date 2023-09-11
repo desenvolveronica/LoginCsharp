@@ -63,6 +63,16 @@ namespace LoginC_.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cadastre_se {
+            get {
+                object obj = ResourceManager.GetObject("Cadastre-se", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cadeado {
             get {
                 object obj = ResourceManager.GetObject("Cadeado", resourceCulture);

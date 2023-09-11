@@ -96,5 +96,8 @@
   <ItemGroup>
     <None Include="Resources\Cadeado.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cadastre-se.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
