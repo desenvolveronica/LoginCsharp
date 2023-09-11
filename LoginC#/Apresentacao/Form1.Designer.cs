@@ -97,11 +97,13 @@
             // 
             this.txbSenha.Location = new System.Drawing.Point(294, 130);
             this.txbSenha.Name = "txbSenha";
+            this.txbSenha.PasswordChar = '*';
             this.txbSenha.Size = new System.Drawing.Size(181, 20);
             this.txbSenha.TabIndex = 6;
             // 
             // btnCadastro
             // 
+            this.btnCadastro.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCadastro.Location = new System.Drawing.Point(352, 227);
             this.btnCadastro.Name = "btnCadastro";
             this.btnCadastro.Size = new System.Drawing.Size(123, 33);
