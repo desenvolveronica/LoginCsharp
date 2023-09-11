@@ -12,10 +12,12 @@ namespace LoginC_.DAL
         public String mensagem;
         public bool verificarLogin(String login, String senha)
         {
+            //método com os comandos SQL para verificar se tem no banco
             return tem;
         }
         public string cadastrar(String email, String senha, String confSenha)
         {
+            //comandos para inserir no banco retornando uma string de cadastrado ou erro
             return mensagem;
         }
     }
