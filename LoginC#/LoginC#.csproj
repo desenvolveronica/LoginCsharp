@@ -70,6 +70,9 @@
     <Compile Include="Modelo\Controle.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Apresentacao\BemVindo.resx">
+      <DependentUpon>BemVindo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Apresentacao\Cadastre-se.resx">
       <DependentUpon>Cadastre-se.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +107,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Cadastre-se.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Koala.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
