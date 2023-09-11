@@ -13,7 +13,7 @@ namespace LoginC_.DAL
         SqlConnection con = new SqlConnection();
         public Conexao() { 
         
-            con.ConnectionString = @"";
+            con.ConnectionString = @"Data Source=VERONICAPC\SQLSERVER1993;Initial Catalog=ProjetoLogin;Integrated Security=True";
         }  
         
         public SqlConnection conectar()
