@@ -26,6 +26,10 @@ namespace LoginC_.Modelo
         {
             LoginDaoComandos loginDao = new LoginDaoComandos();
             this.mensagem = loginDao.cadastrar(email, senha, confSenha);
+            if (loginDao.tem)//já define como verdadeiro sem precisar colocar ==
+            {
+                this.tem = true;
+            }
             return mensagem;
         }
     }

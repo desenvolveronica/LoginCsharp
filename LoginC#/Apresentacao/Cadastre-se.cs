@@ -21,7 +21,17 @@ namespace LoginC_.Apresentacao
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
             Controle controle = new Controle();
-            controle.cadastrar(txbLogin.Text, txbSenha.Text, txbConfirmarSenha.Text);
+            String mensagem = controle.cadastrar(txbLogin.Text, txbSenha.Text, txbConfirmarSenha.Text);
+            if (controle.tem)//mensagem de sucesso
+            {
+                MessageBox.Show(mensagem, "Cadastro", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Form1 Form1 = new Form1();
+                Form1.Show();
+            }
+            else
+            {
+                MessageBox.Show(controle.mensagem);//mensagem de erro
+            }
         }
     }
 }

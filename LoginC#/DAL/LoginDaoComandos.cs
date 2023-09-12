@@ -43,6 +43,7 @@ namespace LoginC_.DAL
         public string cadastrar(String email, String senha, String confSenha)
         {
             //comandos para inserir no banco retornando uma string de cadastrado ou erro
+            tem = false;
             if (senha.Equals(confSenha))
             {
                 cmd.CommandText = "insert into logins values (@e, @s);";
@@ -55,6 +56,7 @@ namespace LoginC_.DAL
                     cmd.ExecuteNonQuery();  
                     con.desconectar();
                     this.mensagem = "Cadastro finalizado com sucesso!";
+                    tem = true;
                 }
                 catch (SqlException)
                 {
