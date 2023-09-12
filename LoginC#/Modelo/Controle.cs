@@ -25,7 +25,7 @@ namespace LoginC_.Modelo
         public string cadastrar(String email, String senha, String confSenha)
         {
             LoginDaoComandos loginDao = new LoginDaoComandos();
-
+            this.mensagem = loginDao.cadastrar(email, senha, confSenha);
             return mensagem;
         }
     }
