@@ -42,7 +42,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(359, 91);
+            this.label1.Location = new System.Drawing.Point(258, 91);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(38, 15);
             this.label1.TabIndex = 0;
@@ -51,7 +51,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(359, 134);
+            this.label2.Location = new System.Drawing.Point(258, 131);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 15);
             this.label2.TabIndex = 1;
@@ -60,7 +60,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(359, 176);
+            this.label3.Location = new System.Drawing.Point(258, 176);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(98, 15);
             this.label3.TabIndex = 2;
@@ -68,7 +68,7 @@
             // 
             // txbLogin
             // 
-            this.txbLogin.Location = new System.Drawing.Point(485, 88);
+            this.txbLogin.Location = new System.Drawing.Point(373, 88);
             this.txbLogin.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txbLogin.Name = "txbLogin";
             this.txbLogin.Size = new System.Drawing.Size(166, 21);
@@ -76,7 +76,7 @@
             // 
             // txbSenha
             // 
-            this.txbSenha.Location = new System.Drawing.Point(485, 131);
+            this.txbSenha.Location = new System.Drawing.Point(373, 131);
             this.txbSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txbSenha.Name = "txbSenha";
             this.txbSenha.PasswordChar = '*';
@@ -85,7 +85,7 @@
             // 
             // txbConfirmarSenha
             // 
-            this.txbConfirmarSenha.Location = new System.Drawing.Point(485, 176);
+            this.txbConfirmarSenha.Location = new System.Drawing.Point(373, 176);
             this.txbConfirmarSenha.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.txbConfirmarSenha.Name = "txbConfirmarSenha";
             this.txbConfirmarSenha.PasswordChar = '*';
@@ -98,14 +98,14 @@
             this.pictureBox1.Location = new System.Drawing.Point(59, 66);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(236, 226);
+            this.pictureBox1.Size = new System.Drawing.Size(165, 169);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(443, 244);
+            this.btnCadastrar.Location = new System.Drawing.Point(330, 234);
             this.btnCadastrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(134, 47);
@@ -117,7 +117,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(698, 335);
+            this.ClientSize = new System.Drawing.Size(612, 324);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txbConfirmarSenha);
