@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LoginC_.Modelo;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,12 @@ namespace LoginC_.Apresentacao
         public Cadastre_se()
         {
             InitializeComponent();
+        }
+
+        private void btnCadastrar_Click(object sender, EventArgs e)
+        {
+            Controle controle = new Controle();
+            controle.cadastrar(txbLogin.Text, txbSenha.Text, txbConfirmarSenha.Text);
         }
     }
 }
