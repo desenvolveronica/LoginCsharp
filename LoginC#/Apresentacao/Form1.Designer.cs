@@ -51,6 +51,7 @@
             this.btnEntrar.TabIndex = 1;
             this.btnEntrar.Text = "Entrar";
             this.btnEntrar.UseVisualStyleBackColor = false;
+            this.btnEntrar.Click += new System.EventHandler(this.btnEntrar_Click);
             // 
             // btnSair
             // 
@@ -134,7 +135,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(714, 374);
+            this.ClientSize = new System.Drawing.Size(628, 363);
             this.Controls.Add(this.btnCadastro);
             this.Controls.Add(this.txbSenha);
             this.Controls.Add(this.txbLogin);
