@@ -20,6 +20,7 @@ namespace LoginC_.Apresentacao
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+
             Controle controle = new Controle();
             String mensagem = controle.cadastrar(txbLogin.Text, txbSenha.Text, txbConfirmarSenha.Text);
             if (controle.tem)//mensagem de sucesso

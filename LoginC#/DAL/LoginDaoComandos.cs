@@ -42,6 +42,7 @@ namespace LoginC_.DAL
         }
         public string cadastrar(String email, String senha, String confSenha)
         {
+
             //comandos para inserir no banco retornando uma string de cadastrado ou erro
             tem = false;
             if (senha.Equals(confSenha))
